@@ -13,15 +13,21 @@ const Projects = () => {
       <div className="lg:flex gap-10">
         <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
           {/* Image takes full width of the div */}
-          <div className="w-full">
-            <Image
-              className="mx-auto"
-              src={python_sales}
-              width={800}
-              height={600}
-              alt="web image"
-            />
-          </div>
+          <a
+            href="https://github.com/Kinzali/Eid-Sales-Analysis"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="w-full">
+              <Image
+                className="mx-auto"
+                src={python_sales}
+                width={800}
+                height={600}
+                alt="web image"
+              />
+            </div>
+          </a>
 
           <p className="py-8 text-gray-800">
             Python Project - Analyze the Eid sales to improve customer service
