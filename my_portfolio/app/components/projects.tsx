@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import project1 from './../../public/project13.png';
 import data from './../../public/data.png';
-import devops from './../../public/Devops.png';
+import python_sales from './../../public/Eid sales.jpeg';
 
 const Projects = () => {
   return (
@@ -16,7 +16,7 @@ const Projects = () => {
           <div className="w-full">
             <Image
               className="mx-auto"
-              src={data}
+              src={python_sales}
               width={800}
               height={600}
               alt="web image"
@@ -24,23 +24,19 @@ const Projects = () => {
           </div>
 
           <p className="py-8 text-gray-800">
-            Crafting sophisticated web solutions tailored to your requirements,
-            employing a foundation in core design principles.
+            Python Project - Analyze the Eid sales to improve customer service
+            and sales.
           </p>
 
           {/* Buttons with equal width using flex-1 */}
           <div className="flex justify-between mt-4 gap-20">
             <a
-              href="#live-preview"
-              className="flex-1 bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded"
-            >
-              Live Preview
-            </a>
-            <a
-              href="#code"
+              href="https://github.com/Kinzali/Eid-Sales-Analysis"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex-1 bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded"
             >
-              Code
+              Read More
             </a>
           </div>
         </div>
