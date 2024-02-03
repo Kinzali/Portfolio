@@ -45,10 +45,10 @@ const Header = () => {
           Data Engineer | Data Analyst | Python Programming
         </h3>
         <p className="text-xl py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl tracking-wider">
-          I am a dedicated Data Engineer with a strong passion for leveraging
-          technology, specializing in Python programming, to transform data into
-          valuable insights that drive enhanced product development and
-          marketing strategies.
+          Passionate data engineer and analyst with a proven record in leading
+          dynamic projects, collecting event-based data, and driving
+          transformative insights. Committed to excellence, I elevate data
+          strategy for organizations through innovative approaches.
         </p>
         <div className="text-5xl flex justify-center gap-12 py-3 text-gray-600 dark:text-gray-400">
           <a
