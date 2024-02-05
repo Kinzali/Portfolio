@@ -42,7 +42,7 @@ const Header = () => {
           Kinza Ali
         </h2>
         <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-          Data Engineer | Data Analyst | Python Programming
+          Data Engineer | Data Analyst | IT Consultant
         </h3>
         <p className="text-xl py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl tracking-wider">
           Passionate data engineer and analyst with a proven record in leading

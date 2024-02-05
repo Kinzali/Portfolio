@@ -66,7 +66,7 @@ const Skills = () => {
             alt="data image"
           />
           <h3 className="text-lg font-medium pt-8 pb-2 text-gray-800">
-            Data Analytics & visualization
+            Data Analytics & Data Engineering
           </h3>
           <p className="py-2 text-gray-800">
             Offering comprehensive data analysis and visualization services for
@@ -90,14 +90,16 @@ const Skills = () => {
             alt="devops image"
           />
           <h3 className="text-lg font-medium pt-8 pb-2 text-gray-800">
-            DevOps
+            DevOps & Cloud
           </h3>
           <p className="py-2 text-gray-800">
             Versatile DevOps practitioner with expertise in GitHub, CI/CD
             servers for automated workflows, and server-side application
-            deployment and integration.
+            deployment and integration. Proficient in deploying applications on
+            Azure.
           </p>
           <h4 className="py-4 text-teal-600">Technologies I Use</h4>
+          <p className="text-gray-800 py-1">Azure</p>
           <p className="text-gray-800 py-1">GitHub</p>
           <p className="text-gray-800 py-1">CI/CD</p>
           <p className="text-gray-800 py-1">git</p>
